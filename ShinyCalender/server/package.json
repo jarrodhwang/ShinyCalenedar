@@ -5,6 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "dev": "nodemon --watch './**/*.ts' --exec ts-node server.ts",
+    "dev2": "tsc --watch",
     "build": "tsc",
     "start": "node dist/server.js"
   },
